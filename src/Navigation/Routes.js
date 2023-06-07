@@ -6,7 +6,7 @@ import HomeStack from './HomeStack';
 export default function Routes() {
   return (
     <NavigationContainer>
-       {false?AuthStack() : HomeStack()} 
+       {false?HomeStack() : AuthStack()} 
     </NavigationContainer>
   );
 }

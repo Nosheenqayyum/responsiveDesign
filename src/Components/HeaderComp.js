@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
     container: {
        flexDirection:'row',
        alignContent:'center',
-       height: moderateScale(42)
+       height: moderateScale(40),
+       marginTop:22
     },
 });
 
